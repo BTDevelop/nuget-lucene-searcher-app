@@ -12,7 +12,7 @@ namespace LuceneDummy
 {
     public class LuceneDummy
     {
-        public string Search(string wanted)
+        public string DummySearcher(string wanted)
         {
             LuceneEngine engine = new LuceneEngine();
             var result = engine.Search("Title", wanted);
